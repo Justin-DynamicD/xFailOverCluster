@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/6a59vfritv4kbc7d/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xfailovercluster/branch/master)
+﻿[![Build status](https://ci.appveyor.com/api/projects/status/6a59vfritv4kbc7d/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xfailovercluster/branch/master)
 
 # xFailOverCluster
 
@@ -27,6 +27,12 @@ Please check out common DSC Resources [contributing guidelines](https://github.c
 * **Credential**: Credential used to join or leave domain
 
 ## Versions
+
+### Unreleased
+* Added xClusterNetworking resource with the ability to set the following
+    - NetworkName
+    - NetworkMertic
+    - NetworkRole (1, 2, 3 for Private, Public, Mixed)
 
 ### 1.1.0.0
 
